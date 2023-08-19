@@ -1,0 +1,65 @@
+
+.item-img img
+{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 6px;
+    margin-bottom:20px ;
+    border-radius: 6px;
+}
+.item-img
+{   margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    
+}
+.listItem
+{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px 10px 10px 20px;
+    
+}
+.listItem td:first-child,
+.listItem td:nth-child(2),
+.listItem td:nth-child(3),
+.listItem td:nth-child(4)
+{
+    margin-bottom: 20px;
+    
+}
+.list{
+    display: flex;
+}
+.listItem2
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    
+}
+.listItem2 td:first-child,
+.listItem2 td:nth-child(2)
+{
+    padding-top: 5px;
+    text-align: justify;
+    margin-bottom: 15px;   
+    
+}
+
+.listItem2 td:last-child
+{
+    cursor: pointer;
+    
+}
+.btnTxt .txtColor{
+    background-color: rgb(226, 211, 211);
+    border: none;
+    
+}
+.btnTxt
+{
+    margin-left: 8px;
+}

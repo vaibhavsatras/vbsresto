@@ -1,0 +1,10 @@
+.card-item
+{
+    cursor: pointer;
+
+}
+.card:hover
+{
+    transform: translate(8px, 8px);
+    transition: 0.5s;
+}
